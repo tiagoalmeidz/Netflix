@@ -1,0 +1,8 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/tiagoalmeida93/BarberShop-Management.git",
+  "author": "Tiago Almeida <tiago.fernando.almeida@gmail.com>"
+}
