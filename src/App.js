@@ -1,7 +1,8 @@
 import React from "react";
+import Main from "./pages";
 
 function App() {
-  return <h1>Netflix Clone</h1>;
+  return <Main />;
 }
 
 export default App;
