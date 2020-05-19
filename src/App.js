@@ -1,8 +1,14 @@
 import React from "react";
-import Main from "./pages";
+import { BrowserRouter as Router } from "react-router-dom";
 
-function App() {
-  return <Main />;
+import "./css/App.css";
+
+import Routes from "./routes";
+
+export default function App() {
+  return (
+    <Router>
+      <Routes />
+    </Router>
+  );
 }
-
-export default App;
