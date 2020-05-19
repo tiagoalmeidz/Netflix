@@ -1,9 +1,16 @@
 import React from "react";
 
-// import { Container } from './styles';
+import logo from "../../utils/svg/logo.svg";
+import { Link } from "react-router-dom";
+import { HeaderComponent, Logo, HeaderTop } from "./styles";
 
-function Header() {
-  return <>Header</>;
+export default function Header() {
+  return (
+    <HeaderComponent className="header-container">
+      <HeaderTop className="header-top">
+        <Logo src={logo} alt="Netflix Logo" />
+        <Link className="signIn-btn">Sign In</Link>
+      </HeaderTop>
+    </HeaderComponent>
+  );
 }
-
-export default Header;
