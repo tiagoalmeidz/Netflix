@@ -1,0 +1,7 @@
+.react-tabs__tab {
+  list-style-type: none;
+}
+
+.react-tabs__tab-list {
+  padding: 0;
+}
