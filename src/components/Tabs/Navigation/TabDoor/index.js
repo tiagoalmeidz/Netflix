@@ -6,7 +6,7 @@ export default function TabDoor() {
     <IconDoor>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="tab-cancel svg-icon-icon-cancel"
+        className="tab-cancel svg-icon-icon-cancel"
         id="icon-cancel"
         viewBox="0 0 40 48"
         focusable="true"

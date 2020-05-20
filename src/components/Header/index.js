@@ -10,13 +10,15 @@ export default function Header() {
     <HeaderComponent className="header-container">
       <div className="header-top">
         <Logo src={logo} alt="Netflix Logo" />
-        <Link className="signIn-btn">Sign In</Link>
+        <Link className="signIn-btn" to="#">
+          Sign In
+        </Link>
       </div>
       {/* Header Content */}
       <div className="header-content">
         <Title>See what's next.</Title>
         <SubTitle>WATCH ANYWHERE. CANCEL ANYTIME.</SubTitle>
-        <Link className="main-offer-btn">
+        <Link className="main-offer-btn" to="#">
           try it now
           <MdKeyboardArrowRight className="icon-arrow-right" size={37} />
         </Link>

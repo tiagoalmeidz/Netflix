@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const IconPrices = styled.svg`
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 4.375rem;
+  height: 4.375rem;
   fill: var(--main-grey);
 `;

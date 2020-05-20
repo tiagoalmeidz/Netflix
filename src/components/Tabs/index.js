@@ -13,12 +13,21 @@ export default function TabComponent() {
         <TabList>
           <Tab>
             <TabDoor />
+            <p>
+              <strong>No commitments Cancel online at anytime</strong>
+            </p>
           </Tab>
           <Tab>
             <TabDevices />
+            <p style={{ marginTop: "-5.3125rem" }}>
+              <strong>Watch anywhere</strong>
+            </p>
           </Tab>
           <Tab>
             <TabPrices />
+            <p>
+              <strong>Pick your price</strong>
+            </p>
           </Tab>
         </TabList>
       </Tabs>

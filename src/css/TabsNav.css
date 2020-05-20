@@ -2,6 +2,34 @@
   list-style-type: none;
 }
 
+.react-tabs {
+  padding-top: 1rem;
+}
+
 .react-tabs__tab-list {
   padding: 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  list-style: none;
+  color: var(--main-grey);
+  margin: 0 12%;
+}
+
+/* Tabs Nav Hover Effect */
+ul li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+ul li:hover svg path {
+  fill: #fff;
+}
+
+/* Aba Ativa */
+.react-tabs__tab--selected {
+  border-bottom: 4px solid var(--main-red);
 }
