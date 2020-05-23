@@ -33,3 +33,11 @@ ul li:hover svg path {
 .react-tabs__tab--selected {
   border-bottom: 4px solid var(--main-red);
 }
+
+.tab-selected {
+  color: #fff;
+}
+
+.tab-selected svg path {
+  fill: #fff;
+}

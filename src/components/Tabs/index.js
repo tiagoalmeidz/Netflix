@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import TabDoor from "./Navigation/TabDoor/";
 import TabDevices from "./Navigation/TabDevices";
@@ -7,11 +7,15 @@ import "../../css/TabsNav.css";
 import TabPrices from "./Navigation/TabPrices";
 
 export default function TabComponent() {
+  const [tabIndex, setTabIndex] = useState(0);
   return (
     <>
-      <Tabs>
+      <Tabs
+        selectedIndex={tabIndex}
+        onSelect={(tabIndex) => setTabIndex(tabIndex)}
+      >
         <TabList>
-          <Tab>
+          <Tab className={`${tabIndex === 0 ? "tab-selected active" : null}`}>
             <TabDoor />
             <p style={{ marginTop: "0.49rem" }}>
               <strong>
@@ -19,13 +23,13 @@ export default function TabComponent() {
               </strong>
             </p>
           </Tab>
-          <Tab>
+          <Tab className={`${tabIndex === 1 ? "tab-selected active" : null}`}>
             <TabDevices />
             <p style={{ marginTop: "-5.3125rem" }}>
               <strong>Watch anywhere</strong>
             </p>
           </Tab>
-          <Tab>
+          <Tab className={`${tabIndex === 2 ? "tab-selected active" : null}`}>
             <TabPrices />
             <p style={{ marginTop: "-0rem" }}>
               <strong>Pick your price</strong>
