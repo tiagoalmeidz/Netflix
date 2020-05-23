@@ -13,8 +13,10 @@ export default function TabComponent() {
         <TabList>
           <Tab>
             <TabDoor />
-            <p>
-              <strong>No commitments Cancel online at anytime</strong>
+            <p style={{ marginTop: "0.49rem" }}>
+              <strong>
+                No commitments <br /> Cancel online at anytime
+              </strong>
             </p>
           </Tab>
           <Tab>
@@ -25,7 +27,7 @@ export default function TabComponent() {
           </Tab>
           <Tab>
             <TabPrices />
-            <p>
+            <p style={{ marginTop: "-0rem" }}>
               <strong>Pick your price</strong>
             </p>
           </Tab>
