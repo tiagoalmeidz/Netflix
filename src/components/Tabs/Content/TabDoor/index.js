@@ -16,7 +16,7 @@ function DoorContent() {
             <br />
             <Button style={{ marginTop: "2rem" }}>Try it now</Button>
           </div>
-          <img src={Img} alt="Cancel" style={{ width: "45rem" }} />
+          <img src={Img} alt="Cancel" style={{ width: "35rem" }} />
         </div>
       </div>
     </Container>
