@@ -1,11 +1,11 @@
 import React from "react";
 import Img from "../../../../utils/images/tab-1-pic.png";
-import { TabContentContainer } from "../styles";
+import { Container } from "./styles";
 import { Button } from "../../../Button";
 
 function DoorContent() {
   return (
-    <TabContentContainer>
+    <Container>
       <div className="container">
         <div className="tab-content">
           <div>
@@ -19,7 +19,7 @@ function DoorContent() {
           <img src={Img} alt="Cancel" style={{ width: "45rem" }} />
         </div>
       </div>
-    </TabContentContainer>
+    </Container>
   );
 }
 

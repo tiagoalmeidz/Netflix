@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TabContentContainer = styled.div`
+export const Container = styled.div`
   background: var(--main-deep-dark);
 
   .container {
@@ -8,7 +8,7 @@ export const TabContentContainer = styled.div`
   }
 
   img {
-    width: 31.875;
+    width: 31.875rem;
   }
 
   .tab-content {
