@@ -5,7 +5,7 @@ import TabDevices from "./Navigation/TabDevices";
 
 import "../../css/TabsNav.css";
 import TabPrices from "./Navigation/TabPrices";
-import DevicesContent from "./Content/TabDevices";
+import DoorContent from "./Content/TabDoor";
 
 export default function TabComponent() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -40,7 +40,7 @@ export default function TabComponent() {
 
         {/* Tab Content */}
         <TabPanel>
-          <DevicesContent />
+          <DoorContent />
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>
